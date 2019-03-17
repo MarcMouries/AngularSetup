@@ -22,3 +22,30 @@ mkdir ~/.nvm
 ~/.bash_profile 
 export NVM_DIR=”$HOME/.nvm”
 ```
+
+### 5. Install the version of Node needed
+```
+nvm install v8.15.1
+```
+
+### 6. Install the Angular CLI
+```
+npm install -g @angular/cli
+```
+
+### 7. Create New Application
+```
+ng new project-name
+```
+
+### 8. Run the Application
+```
+cd project-name
+ng serve                             ## (OR)
+ng serve – – host 0.0.0.0 – – open   ## (OR)
+ng serve -h 0.0.0.0 -o               ## (to run on default port)
+ng serve -h 0.0.0.0 -p 3000 -o       ## (to run on user defined port)
+```
+
+
+
